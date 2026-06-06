@@ -1,0 +1,32 @@
+# LandDocValidator Configuration File
+# কনফিগারেশন ফাইল
+
+# Database Configuration
+database:
+  host: localhost
+  port: 5432
+  name: landdocvalidator
+  user: postgres
+  password: ""
+
+# PDF/Image Processing
+processing:
+  max_file_size: 50MB
+  supported_formats:
+    - pdf
+    - png
+    - jpg
+    - jpeg
+
+# Validation Rules
+validation:
+  check_deed: true
+  check_khitiyan: true
+  check_mutation: true
+  check_tax_receipt: true
+
+# Output Settings
+output:
+  format: markdown
+  generate_pdf: true
+  include_errors: true
