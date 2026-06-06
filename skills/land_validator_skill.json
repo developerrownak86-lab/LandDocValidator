@@ -1,0 +1,20 @@
+{
+  "name": "Land Document Validator",
+  "description": "AI skill for validating and analyzing land documents",
+  "version": "1.0.0",
+  "capabilities": [
+    "parse_document",
+    "validate_deed",
+    "analyze_khitiyan",
+    "check_mutation",
+    "validate_tax_receipt",
+    "track_ownership",
+    "detect_errors",
+    "generate_report"
+  ],
+  "supported_formats": [
+    "pdf",
+    "image"
+  ],
+  "language": "bengali"
+}
